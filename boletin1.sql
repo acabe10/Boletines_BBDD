@@ -1,4 +1,4 @@
-#Muestra los empleados que ganan más que SMITH
+# Muestra los empleados que ganan más que SMITH
 
 SELECT ename
 FROM emp
@@ -13,11 +13,15 @@ FROM emp e, dept d
 WHERE e.deptno = d.deptno;
 
 # Muestra los empleados del departamento 10 que entraron en la empresa antes del año 1998.
+	
+	# Con fecha completa: 
 
 SELECT ename
 FROM emp
 WHERE deptno = 10
 AND hiredate < '01/01/1998';
+	
+	# Con sólo el año:
 
 SELECT ename
 FROM emp
