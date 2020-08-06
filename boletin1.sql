@@ -1,4 +1,4 @@
-# Muestra los empleados que ganan más que SMITH
+#Muestra los empleados que ganan más que SMITH
 
 SELECT ename
 FROM emp
